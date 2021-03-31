@@ -1,6 +1,5 @@
 package com.piGL.notification;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.util.MultiValueMap;
 import com.twilio.Twilio;
@@ -12,11 +11,11 @@ import com.twilio.type.PhoneNumber;
 public class SmsService {
 
 	
-	 private final String ACCOUNT_SID ="ACcc0a26093896ccc8da3e40b7f5596d3e";
+	 private final String ACCOUNT_SID ="AC2dcfb7bbce10acb53f7d11aeaf1e7aef";
 
-	    private final String AUTH_TOKEN = "1488f468436c8de31942bfdd44f0df7b";
+	    private final String AUTH_TOKEN = "2620b9a4e126cdd800e497602fdd2551";
 
-	    private final String FROM_NUMBER = "+16307934942";
+	    private final String FROM_NUMBER = "+19738288299";
 
 	    public void send(Sms sms) {
 	    	Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
